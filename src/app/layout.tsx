@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
+import { cn } from "@/lib/utils";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sarvesh Pathak — AI Engineer & Full Stack Developer",
-  description:
-    "Interactive AI-powered portfolio. Built with Next.js, Three.js, FastAPI, and GenAI.",
+  title: "Sarvesha Pathak — AI Engineer & Full Stack Developer",
+  description: "Interactive AI-powered portfolio built with Next.js, Three.js, FastAPI, and GenAI.",
 };
 
 export default function RootLayout({
@@ -25,6 +25,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-// Add this import at the top
-import { cn } from "@/lib/utils";
